@@ -1,4 +1,4 @@
-
+<h1>HELLO</h1>
 <?php
 session_start();
 
@@ -19,5 +19,3 @@ require"./Controllers/${controllerName}.php";
 $controllerObject = new  $controllerName;
 //var_dump($controllerObject);
 $controllerObject->$actionName();
-
-
